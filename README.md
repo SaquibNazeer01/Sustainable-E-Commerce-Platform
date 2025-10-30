@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌿 Sustainable E-Commerce Platform
 
-# Run and deploy your AI Studio app
+A modern and eco-friendly e-commerce platform promoting sustainable shopping practices and green consumerism.  
+Built with cutting-edge web technologies and optimized for speed, accessibility, and environmental awareness.  
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Features
 
-## Run Locally
+- ♻️ Sustainable product listings  
+- 🌱 Eco-impact tracking for purchases   
+- 📦 Smart order management system  
+- 💬 Chatbot for sustainability guidance  
+-    EcoCoins for donation
 
-**Prerequisites:**  Node.js
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Backend:** Node.js + Express   
+- **Styling:** Tailwind CSS  
+ 
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# 1️⃣ Clone the repository or download zip folder and extract it
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# 2️⃣ Navigate to the project folder
+cd <folder_name>
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
+
+
+#Developed by Saquib Nazeer
