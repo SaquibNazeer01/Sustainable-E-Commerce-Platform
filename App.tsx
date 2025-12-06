@@ -27,7 +27,7 @@ const App: React.FC = () => {
           <Header onCartClick={() => setIsCheckoutOpen(true)} />
           <main className="flex-grow container mx-auto px-4 py-8">
             <Routes>
-              <Route path="/" element={<LandingPage setPage={() => {}} />} />
+              <Route path="/" element={<LandingPage />} />
               <Route path="/shop" element={<ProductCatalogPage />} />
               <Route path="/dashboard" element={<DashboardPage />} />
               <Route path="/community" element={<CommunityPage />} />
@@ -37,7 +37,7 @@ const App: React.FC = () => {
               <Route path="/register" element={<RegisterPage />} />
               <Route path="/marketplace" element={<Marketplace />} />
               <Route path="/ai-plans" element={<AISuggestedPlansPage />} />
-              <Route path="*" element={<Navigate to="/dashboard" />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
           <EcoBot />
